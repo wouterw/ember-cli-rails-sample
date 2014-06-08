@@ -1,3 +1,5 @@
+require 'yaml'
+
 class RedisFactory
   def self.create(namespace: 'app')
     config = self.config
